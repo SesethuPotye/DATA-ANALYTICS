@@ -62,3 +62,44 @@ A data element is an attribute about a person, place, or thing containing data w
 
 # Data types
 so a data type limits the values a data element can have.
+
+# Tabular Data
+
+Tabular data is data organized into a table, made up of columns and rows. A table represents information about a single topic. Each column represents a uniquely named field within a table, also called a variable, about a single characteristic. The contents of each column contain values for the data element as defined by the column header.
+
+# Structured Data Types
+Structured data is tabular in nature and organized into rows and columns. Structured data is what typically comes to mind when looking at a spreadsheet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
