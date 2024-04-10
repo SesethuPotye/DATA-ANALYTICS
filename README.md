@@ -1,4 +1,3 @@
-# DATA-ANAYISIS
 # DATA ANALYTICS
 # Chapter 1
 
