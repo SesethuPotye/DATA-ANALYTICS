@@ -17,6 +17,22 @@
 
 data analytics is the whole process of taking raw data and turning it into insights that can be used to make decisions. This involves collecting the data, cleaning it, analyzing it, and visualizing the results.
 
+# What makes up data analytics 
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/8c119eb6-2547-4fa9-9482-f078ace610a3)
+
+# The Analytics Process
+Analysts working with data move through a series of different steps as they seek to gain business value from their organization's data.
+
+# illustration of the process that is used by Analysts as they aquire new data, clean and manipulate that data, analyz it, create visualizations, and then reports and commmunicate thier results to business leaders
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/df0ec801-f364-4573-bdd7-15803f2c126a)
+
+
+
+
+
+
 # several key responsibilities and skills of data analyitics are:
 
 # Data Collection and Preparation:
