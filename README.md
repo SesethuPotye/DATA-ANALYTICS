@@ -29,6 +29,10 @@ Analysts working with data move through a series of different steps as they seek
 ![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/df0ec801-f364-4573-bdd7-15803f2c126a)
 
 
+# The Analytics Process is Iterative
+analyzing data is actually a looping process, not a straight line.  You might go through the steps like defining a question, collecting data, cleaning it, analyzing it, and visualizing it, but you might also need to go back and redo a step if you find something unexpected. However The whole thing is meant to be a flexible guide, not a set of strict rules.
+
+
 
 
 
