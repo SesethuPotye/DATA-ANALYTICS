@@ -58,6 +58,7 @@ In conclusin By fulfilling these roles, a data analyst helps an organization mak
 ![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/8c119eb6-2547-4fa9-9482-f078ace610a3)
 
 # The Analytics Process
+
 Analysts working with data move through a series of different steps as they seek to gain business value from their organization's data.
 
 # illustration of the process that is used by Analysts as they aquire new data, clean and manipulate that data, analyz it, create visualizations, and then reports and commmunicate thier results to business leaders
