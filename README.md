@@ -146,6 +146,31 @@ Alphanumeric data type is your go-to for storing text that combines letters and 
 
 Example 
 ![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/0556a37f-4773-4874-b1ce-f309c0022cd8)
+# NEED TO GO OVER FROM HERE DONT UNDERSTAND AS YET
+
+
+
+# Unstructured Data Types
+Unstructured data types refer to information that doesn't have a predefined format or organization. Unlike the neat rows and columns of structured data (like spreadsheets), unstructured data is more like a messy attic filled with all sorts of things.
+
+Examples of unstructured data include digital images, audio recordings, video recordings, and open-ended survey responses. Analyzing unstructured data creates a wealth of information and insight. Many people have camera-enabled smartphones, and using video for conversations and meetings is commonplace. To capture and analyze unstructured data, we make use of data types designed explicitly for that purpose
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/fb1711f0-cad1-4e17-bdc8-04449340f0e3)
+
+
+# Categories of Data
+
+The world of data isn't as clear-cut as structured vs unstructured. Semi-structured data bridges the gap between those two categories.
+
+Imagine a spectrum: on one end, you have highly organized data in tables (structured). On the other end, you have completely free-form information like videos (unstructured). Semi-structured data sits in the middle. It has some organization, but not a rigid structure like a spreadsheet. Emails or social media posts are good examples. They might have elements like sender, recipient, or timestamps, but the content itself is more flexible. This makes semi-structured data easier to work with than completely unstructured data, but it still requires some wrangling before analysis.
+
+
+
+
+
+
+
+
 
 
 
