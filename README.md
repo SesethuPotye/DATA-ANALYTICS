@@ -30,7 +30,30 @@ Analysts working with data move through a series of different steps as they seek
 
 
 # The Analytics Process is Iterative
+
 analyzing data is actually a looping process, not a straight line.  You might go through the steps like defining a question, collecting data, cleaning it, analyzing it, and visualizing it, but you might also need to go back and redo a step if you find something unexpected. However The whole thing is meant to be a flexible guide, not a set of strict rules.
+
+# Analytics Techniques
+
+Data analysts use a bunch of different tools and tricks to make sense of their data.  These techniques can be grouped together based on what the analyst is trying to do, or what kind of tools they're using. The passage is basically saying we'll be diving into these different categories of techniques next.
+
+e.g 
+* Descriptive Analytics
+* predictive Analytics
+* Perspective Analytics
+
+# Machine Learning, Artificial Intelligence, and Deep Learning
+
+Artificial intelligence (AI) is the broadest term, encompassing any technique that makes a computer mimic human behavior. Machine learning (ML) is a subset of AI that uses statistical methods to find patterns in data, allowing the computer to learn without explicit programming. Deep learning is an even more specialized subset of machine learning that uses complex neural networks to analyze data, particularly useful for images, videos, and sound.
+
+# illustration that shows the relationship between the above fields
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/1a624b4b-07d5-4410-ae68-a25f5a0f1260)
+
+# Data Governance 
+
+Data governance programs ensure that the organization has high-quality data and is able to effectively control that data.
+
+
 
 
 
