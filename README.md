@@ -17,6 +17,42 @@
 
 data analytics is the whole process of taking raw data and turning it into insights that can be used to make decisions. This involves collecting the data, cleaning it, analyzing it, and visualizing the results.
 
+# several key responsibilities and skills of data analyitics are:
+
+# Data Collection and Preparation:
+
+# Collection:
+Involves gathering the data you need for your analysis. This can come from various sources, like surveys, databases, external sources ,social media, or even physical experiments. Here, you decide what information is relevant to answer your question and go get it.
+
+# Preparation:
+Is all about getting that raw data(Unprocessed, Unstructured, Unrefined) into a usable shape. This often involves cleaning the data by fixing errors, filling in missing bits, and ensuring consistency. You might also need to transform the data, like converting dates into a standard format, or combining data from different sources into a single, unified format.
+
+# Data Analysis:
+Employing statistical methods, machine learning techniques, or other analytic tools to interpret data,
+Identifying trends, patterns, and correlations that might not be immediately obvious.
+
+# Data Visualization and Storytelling:
+
+Creating visual representations of the data, such as charts, graphs, and dashboards, to make complex information easily understandable,
+Articulating findings in a compelling narrative to communicate the significance of the data to stakeholders.
+
+# Decision Support:
+Making recommendations based on data-driven insights to help guide business decisions,
+Providing context around the data, including potential implications and future trends.
+
+# Collaboration and Communication:
+
+Working closely with other departments, such as marketing, finance, and operations, to understand their data needs and provide insights,
+Effectively communicating complex data findings in a clear and concise manner to non-technical stakeholders.
+
+# Continuous Learning and Adaptation:
+
+Keeping up-to-date with the latest industry trends, tools, and technologies in data analysis.
+Adapting to new types of data and analytical methods as the organization's needs evolve.
+
+In conclusin By fulfilling these roles, a data analyst helps an organization make informed decisions that can improve operational efficiencies, drive business strategies, and create a competitive advantage. The goal is to contribute to the organization's success by turning data into a valuable asset that informs and drives decision-making.
+
+
 # What makes up data analytics 
 
 ![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/8c119eb6-2547-4fa9-9482-f078ace610a3)
@@ -53,6 +89,25 @@ Artificial intelligence (AI) is the broadest term, encompassing any technique th
 
 Data governance programs ensure that the organization has high-quality data and is able to effectively control that data.
 
+# Analytics Tools
+
+Software helps analysts work through each one of the phases of the analytics process. These tools automate much of the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize, and analyze data. They also provide invaluable assistance in reporting and communicating results.
+
+# SUMMARY
+Businesses are sitting on a goldmine of data! Analytics programs help them unlock this value by turning data into insights.  These programs are becoming more accessible due to:
+
+A massive amount of data being available
+Cheaper data storage
+Powerful cloud computing
+This creates a big opportunity for businesses and especially for data professionals who can analyze this data effectively.
+
+Here's the typical process an analyst follows:
+
+Gather data from various sources (internal and external).
+Clean and organize the data.
+Analyze the data to draw conclusions.
+Create visualizations (charts, graphs) to present the findings clearly.
+Develop reports and dashboards to communicate the insights to business leaders.
 
 
 
@@ -60,58 +115,7 @@ Data governance programs ensure that the organization has high-quality data and 
 
 
 
-# several key responsibilities and skills of data analyitics are:
 
-# Data Collection and Preparation:
-
-# Collection:
-Involves gathering the data you need for your analysis. This can come from various sources, like surveys, databases, external sources ,social media, or even physical experiments. Here, you decide what information is relevant to answer your question and go get it.
-
-# Preparation:
-Is all about getting that raw data(Unprocessed, Unstructured, Unrefined) into a usable shape. This often involves cleaning the data by fixing errors, filling in missing bits, and ensuring consistency. You might also need to transform the data, like converting dates into a standard format, or combining data from different sources into a single, unified format.
-
-# Data Analysis:
-Employing statistical methods, machine learning techniques, or other analytic tools to interpret data,
-Identifying trends, patterns, and correlations that might not be immediately obvious.
-
-# Data Visualization and Storytelling:
-
-Creating visual representations of the data, such as charts, graphs, and dashboards, to make complex information easily understandable,
-Articulating findings in a compelling narrative to communicate the significance of the data to stakeholders.
-
-# Decision Support:
-Making recommendations based on data-driven insights to help guide business decisions,
-Providing context around the data, including potential implications and future trends.
-
-# Collaboration and Communication:
-
-Working closely with other departments, such as marketing, finance, and operations, to understand their data needs and provide insights,
-Effectively communicating complex data findings in a clear and concise manner to non-technical stakeholders.
-
-# Continuous Learning and Adaptation:
-
-Keeping up-to-date with the latest industry trends, tools, and technologies in data analysis.
-Adapting to new types of data and analytical methods as the organization's needs evolve.
-
-In conclusin By fulfilling these roles, a data analyst helps an organization make informed decisions that can improve operational efficiencies, drive business strategies, and create a competitive advantage. The goal is to contribute to the organization's success by turning data into a valuable asset that informs and drives decision-making.
-
-# Exploring Data Types
-# Chapter 2
-
-for one to understand data types one needs to understand data elements.
-
-# DATA ELEMENTS
-A data element is an attribute about a person, place, or thing containing data within a range of values. Data elements also describe characteristics of activities, including orders, transactions, and events. 
-
-# Data types
-so a data type limits the values a data element can have.
-
-# Tabular Data
-
-Tabular data is data organized into a table, made up of columns and rows. A table represents information about a single topic. Each column represents a uniquely named field within a table, also called a variable, about a single characteristic. The contents of each column contain values for the data element as defined by the column header.
-
-# Structured Data Types
-Structured data is tabular in nature and organized into rows and columns. Structured data is what typically comes to mind when looking at a spreadsheet.
 
 
 
