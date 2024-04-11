@@ -110,6 +110,33 @@ Analyze the data to draw conclusions.
 Create visualizations (charts, graphs) to present the findings clearly.
 Develop reports and dashboards to communicate the insights to business leaders.
 
+# CHAPTER 2 
+
+# Understanding Data 
+
+This chapter will focus on Understand Domain 1.0:
+* Data Concepts and Environments
+* Compare and contrast different data types
+* Compare and contrast common data structures and file formats
+
+for one to understand data types one needs to understand data elements.
+
+# DATA ELEMENTS
+A data element is an attribute about a person, place, or thing containing data within a range of values. Data elements also describe characteristics of activities, including orders, transactions, and events. 
+
+# Data types
+so a data type limits the values a data element can have.
+
+# Tabular Data
+
+Tabular data is data organized into a table, made up of columns and rows. A table represents information about a single topic. Each column represents a uniquely named field within a table, also called a variable, about a single characteristic. The contents of each column contain values for the data element as defined by the column header.
+
+# Structured Data Types
+Structured data is tabular in nature and organized into rows and columns. Structured data is what typically comes to mind when looking at a spreadsheet.
+
+
+
+
 
 
 
