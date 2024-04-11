@@ -124,15 +124,30 @@ for one to understand data types one needs to understand data elements.
 # DATA ELEMENTS
 A data element is an attribute about a person, place, or thing containing data within a range of values. Data elements also describe characteristics of activities, including orders, transactions, and events. 
 
-# Data types
-so a data type limits the values a data element can have.
+example of data elements 
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/06376ecc-cb78-4f1a-8077-b018eecd22a0)
 
 # Tabular Data
 
 Tabular data is data organized into a table, made up of columns and rows. A table represents information about a single topic. Each column represents a uniquely named field within a table, also called a variable, about a single characteristic. The contents of each column contain values for the data element as defined by the column header.
 
 # Structured Data Types
-Structured data is tabular in nature and organized into rows and columns. Structured data is what typically comes to mind when looking at a spreadsheet.
+Structured data is like a well-organized spreadsheet. Imagine a table with rows and columns, where each column has a clear heading defining the type of data it contains (like names, dates, or prices). This makes structured data easy for computers to understand and work with, just like it's easy for us to read and analyze information in a spreadsheet.
+
+# most common data types that give structured data its structure.
+
+# character 
+
+This data type acts like a filter for data entry, ensuring only valid characters are entered. These characters can be letters, numbers, or symbols from your keyboard. There are different character data types available, each with its own limit on the number of characters allowed.
+
+# Alphanumeric
+
+Alphanumeric data type is your go-to for storing text that combines letters and numbers. It's the most common type for character data. Imagine product codes (SKUs) in retail stores. These codes often mix letters representing brands or styles with numbers indicating sizes or variations. The alphanumeric data type ensures you can store these SKUs effectively, allowing you to track inventory across different systems.
+
+Example 
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/0556a37f-4773-4874-b1ce-f309c0022cd8)
+
+
 
 
 
