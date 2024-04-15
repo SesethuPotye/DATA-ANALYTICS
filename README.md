@@ -364,13 +364,43 @@ By choosing the right data type, you ensure your data is stored efficiently and 
 Think of it like this:
 
 # Data type:
-is like filing a document in a specific folder (e.g., "numbers" folder).
+* is like filing a document in a specific folder (e.g., "numbers" folder).
 
 # Formatting: 
-is like decorating the folder label (e.g., show two decimal places on the label).
+* is like decorating the folder label (e.g., show two decimal places on the label).
 
+# 3. Consider the absolute limits of values that you will use before selecting data types.
+When selecting data types, consider the range of values that a data element can contain. Suppose the values need to fall within a given, defined range. In that case, you must select a data element that can support discrete data. If the data element's range is unknown, a data element that supports continuous data is necessary.
 
+4. Explain the differences between structured and unstructured data
 
+# Structured data: 
+Highly organized information like a table.
+
+* Think "rectangular": Rows and columns with consistent data types in each column.
+* Easier to analyze using traditional techniques.
+
+# Unstructured data:
+Lacks a predefined structure, like text documents or images.
+
+* Doesn't fit neatly into columns and rows.
+* Requires more advanced analysis techniques to find patterns.
+* 
+Imagine data as Legos. Structured data is like pre-built sets with clear instructions. Unstructured data is like a box of random Legos - it takes more effort to build something meaningful.
+
+# 5. Understand the differences in common file formats
+
+# Structured data, easy exchange:
+These formats make data readable and transferable between different tools.
+
+# Delimiters: 
+Special characters (like commas) separate data points in text files.
+# CSV (Comma-Separated Values):
+A popular format using commas as delimiters, good for simple data exchange.
+XML and JSON: For complex data structures and additional information (metadata) about data.
+# JSON preferred: 
+More lightweight and easier to use compared to XML.
+These file formats help organize and share data efficiently, especially when dealing with structured information.
 
 
 
