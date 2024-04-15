@@ -280,21 +280,94 @@ Exporting as CSV or TSV
 
 ![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/7f679b11-91c8-4daa-9e2f-fb61faf02f15)
 
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/2d667fa4-f0c8-41c6-896a-1ed8945b251d)
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/1b449707-19cb-4038-92d1-5bf522d84d59)
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/015c6617-198c-4f2f-9411-dbd56d1fe3c3)
+
+
+# JavaScript Object Notation
+
+* What it is: A popular file format for storing data in a human-readable and machine-friendly way.
+  
+Key features:
+* Open standard and lightweight.
+* Easy for both humans and computers to understand and process.
+* Supported by many programming languages (Python, R, Go, etc.).
+  
+* Uses: Often used to exchange data between applications or store configuration settings.
+
+# Extensible Markup Language (XML)
+
+
+Extensible Markup Language (XML) is a markup language that facilitates structuring data in a text file. While conceptually similar to JSON, XML incurs more overhead because it makes extensive use of tags. Tags describe a data element and enclose each value for each data element. While these tags help readability, they add a significant amount of overhead.
+
+# HyperText Markup Language (HTML)
+HyperText Markup Language (HTML) is a markup language for documents designed to be displayed in a web browser. HTML pages serve as the foundation for how people interact with the World Wide Web. Similar to XML, HTML is a tag-based language
+
+
+Most people interact with HTML as interpreted by a web browser. HTML has become increasingly sophisticated over the years, with the ability for developers to create web pages that dynamically display content, adjust to different screen sizes, and play videos. Among the many tags that HTML supports is the image tag. It would be possible to display a picture of each pet on the table using image tags
 
 
 
+SUMMARY 
+Here's a summary of the key points about data types and formats:
 
+Choosing Data Types:
 
+* The type of data (numbers, text, dates, etc.) you're working with influences how you store and analyze it.
+* Choosing the right data type (discrete, continuous, categorical) improves data quality.
+  
+# Structured Data:
 
+* Think of data organized in tables with rows and columns.
+* Common formats for structured data include:
+  
+CSV (Comma-Separated Values): Simple text files for data exchange.
+JSON (JavaScript Object Notation): Flexible and human-readable format for structured data.
+XML (Extensible Markup Language): Powerful format for complex data structures and metadata.
 
+# Unstructured Data:
 
+* Data like images, audio, and video doesn't have a predefined structure.
+Web Data:
 
+* HTML (Hypertext Markup Language) is the standard for structuring web pages, allowing programmatic interaction with data.
+Key Takeaway:
 
+Understanding data types and formats is essential for data analysts to effectively work with and analyze information.
 
+# 1. Consider the values of what you will store before selecting data types. 
 
+# Numbers:
+* Decimals: Use a numeric data type.
+* Whole numbers: Use an integer data type.
+* Avoid currency-specific types: They can cause calculation issues.
+# Text:
+* Use the alphanumeric data type.
+# Dates:
+* Choose a data type that includes time if needed.
+# Non-textual data (audio, video, images): Use a BLOB (Binary Large Object) data type.
+By choosing the right data type, you ensure your data is stored efficiently and avoids errors during calculations or analysis.
 
+# . Know that you can format data after storing it.
 
+2. Know that you can format data after storing it.
 
+# Data types:
+
+* Decide how data is stored (e.g., numbers with decimals, whole numbers only).
+# Data formatting:
+
+* Controls how data is presented for people (e.g., show all decimals, round to two, display as currency).
+Think of it like this:
+
+# Data type:
+is like filing a document in a specific folder (e.g., "numbers" folder).
+
+# Formatting: 
+is like decorating the folder label (e.g., show two decimal places on the label).
 
 
 
