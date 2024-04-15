@@ -164,6 +164,45 @@ The world of data isn't as clear-cut as structured vs unstructured. Semi-structu
 
 Imagine a spectrum: on one end, you have highly organized data in tables (structured). On the other end, you have completely free-form information like videos (unstructured). Semi-structured data sits in the middle. It has some organization, but not a rigid structure like a spreadsheet. Emails or social media posts are good examples. They might have elements like sender, recipient, or timestamps, but the content itself is more flexible. This makes semi-structured data easier to work with than completely unstructured data, but it still requires some wrangling before analysis.
 
+explanation of the distinction between quantitative and qualitative data!
+
+* Quantitative data: Expressed in numbers and represents measurable qualities. It answers questions like "how many" or "how much." (e.g., height, weight, temperature)
+* Qualitative data: Descriptive information, often in the form of text. It describes characteristics or qualities and answers questions like "why" or "what." (e.g., pet name, color, customer opinion)
+
+  explanation of discrete and continuous data
+
+# Discrete data:
+is like counting whole things. You can't have parts of things, so it applies to things you can count (e.g., number of pets, number of chickens in whole or half portions).
+  
+# Continuous data
+ is for measurements that can have any value within a range, often using decimals (e.g., height, weight).
+Even though age is continuous (technically has infinite values), we often treat it as discrete by using whole years.
+
+This distinction between discrete and continuous data is important for understanding how we analyze and interpret numbers.
+
+
+Dimensional modeling helps us organize data for analysis! Here's the gist:
+
+It separates data into two main tables:
+# Fact tables:
+Store the quantitative measurements we care about (e.g., appointment data for a veterinary clinic).
+# Dimension tables: 
+Provide context for the facts, describing "who, what, when, where, why" (e.g., details on veterinarians, owners, procedures, and pets in the appointment example).
+
+Imagine a fact table like a big basket holding the key data points, and the dimension tables act like labels stuck on the basket, giving details about the contents. This structure makes it easier to analyze the data and answer questions.
+
+
+  ![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/f295e27d-0b7d-42d3-84d7-dcfa679a5ad4)
+
+
+# Dimenstional data:
+* it is aall about organizing details arouna a central theme.
+* It grou[s individual details(attributes) about a specific subject
+* Each group, like the "pets" table with pet info, is called a dimension
+
+  Imagine a filing cabinet for a vet clinic. Each drawer (dimension) holds details about a specific aspect, like pets (their breed, age, etc.) or owners (their contact information). When you combine information from these drawers (dimensions) with the main patient file (fact table), you get a complete picture for each appointment.
+
+
 
 
 
