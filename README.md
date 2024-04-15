@@ -201,27 +201,84 @@ Imagine a fact table like a big basket holding the key data points, and the dime
 * Each group, like the "pets" table with pet info, is called a dimension
 
   Imagine a filing cabinet for a vet clinic. Each drawer (dimension) holds details about a specific aspect, like pets (their breed, age, etc.) or owners (their contact information). When you combine information from these drawers (dimensions) with the main patient file (fact table), you get a complete picture for each appointment.
+  
+# Common Data Structures
+
+* Structured data needs a neat and tidy filing system (think database schemas) to be useful.
+* Unstructured data, like emails and videos, is more flexible in how it's stored.
+Analysts juggle multiple tools, so smooth data exchange (interoperability) is crucial.
+To boost efficiency, standardized practices have emerged for both structured and unstructured data organization.
+
+Tabular data is structured data, with values stored in a consistent, defined manner, organized into columns and rows. Data is consistent when all entries in a column contain the same type of value. This method of organization facilitates aggregation
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/2666c426-0165-448d-b2b1-ca28edbc0662)
+
+# Unstructured Data
+
+* What it is: Descriptive information like images, text, audio/video (qualitative).
+  
+* Key characteristics: Highly variable and lacks a predefined structure.
+  
+* Storage: Different from structured data due to its variety.
+  
+* Importance: Huge potential for businesses to extract value (over 90% according to Forbes).
+  
+* Example: Machine data (digital footprints from devices) is a goldmine of unstructured data.
+  
+* Storage Technologies: Utilize unique identifiers to link data elements.
+
+Unstructured data might seem messy, but it holds immense value if we can unlock it!
+
+* Object storage facilitates the storage of unstructured data. The key-value concept underpins the design of object storage. The key is a unique identifier, and the value is the unstructured data itself.
+
+the key is the filename, and the value is the contents of the file itself. Note that in the bellow figure, each file is of a different type. The word document.docx is a Microsoft Word file, textfile.txt contains plain-text data, and the png image.png and lp_image-8.jpeg objects are digital images.
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/302f40d1-6b77-44ad-a68d-8a94a2475135)
+
+
+To access the contents of a file, you need to know its key
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/c6a019fc-e53b-4bf5-ab58-ac5f2fb7688e)
+
+# Semi-Structured Data
+
+* Think of it as: Structured, but not rigid like a table (tabular).
+Example: Emails have a sender, recipient, subject, etc. (structured), but the body and attachments can be anything (unstructured).
+
+* Benefits: Easier to work with than completely unstructured data.
+  
+* Key feature: Uses tags or separators to add context to the data.
+Semi-structured data provides some organization without being as strict as a traditional database.
+
+# Common File Formats
+
+* Different file formats exist to store and exchange data efficiently between various tools and applications.
+  
+* Some formats have become widely accepted standards, and data analysts should be familiar with these for various tasks.
+
+# Text Files
+
+* Super common data format for computers.
+* Plain text only (letters, numbers, symbols).
+* No fancy formatting or images.
+* Opens easily on pretty much any device (PC, Mac, Linux).
+* Also called "flat files".
+
+A unique character known as a delimiter 
+
+* Delimiters: Special characters used to separate data points in text files (like commas or tabs).
+  
+* Why? Makes structured data transmission easier within plain text files.
+  
+* Common Delimiters: Comma (CSV) and tab (TSV) are widely accepted standards.
+  
+* Benefits: Many software programs and coding languages can easily read and write these delimited text files.
+  
+Exporting as CSV or TSV
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/7f679b11-91c8-4daa-9e2f-fb61faf02f15)
 
 
 
