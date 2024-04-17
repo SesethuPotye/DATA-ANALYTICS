@@ -403,6 +403,86 @@ More lightweight and easier to use compared to XML.
 These file formats help organize and share data efficiently, especially when dealing with structured information.
 
 
+# Chapter 3
+
+
+Exploring Databases
+
+ Different database options to choose from when an organization needs to store data.
+
+1. Relational: A relational database is a type of database designed to store and manage data in a structured way, using tables with rows and columns.
+
+  
+2. Nonrelational:  Store data differently than relational databases. They offer more flexibility in structure and data types, making them a good choice for big data, rapid development, and specific performance needs.
+
+
+# ERD line endings
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/87d8fb2d-1107-4c37-bd4f-2a03ce702cd7)
+
+
+# Unary relationship
+A unary relationship is when an entity has a connection with itself.
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/5862f6c1-ded7-40a0-8b50-1c14bb9ddfb9)
+
+# Entity relationship diagram
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/3005294a-d0ac-4d85-b639-e0e323e4a5a2)
+
+Relational databases translate your ERD (Entity-Relationship Diagram) into a functioning system. Here's the breakdown:
+
+1. ERD to Reality: An ERD blueprint is transformed into a physical database design.
+   
+2. Tables and Columns: ERD entities become database tables, and entity attributes become columns within those tables.
+
+3. Column Order Flexibility: The order of columns within a table doesn't inherently matter. You can specify the order when retrieving data.
+
+4.  Data Types: Each column is assigned a data type to define the kind of information it can store (e.g., text, numbers, dates).
+   
+6. Schema: The Big Picture: The final product, containing all this information, is called a schema. It's essentially a detailed ERD ready for database creation.
+
+
+# Database schema
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/9f9e91aa-9601-45c6-9650-21e34b92a1e5)
+
+
+# Person Data
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/12285f8d-2fe7-4ac0-8e7a-99e354b71778)
+
+
+
+
+
+Referential integrity
+
+Referential integrity in data analytics ensures consistency across linked tables in a relational database. It's like a set of rules that maintains data accuracy and avoids confusion. Here's the gist:
+
+* Foreign Keys and Primary Keys: The magic relies on primary keys (unique identifiers in one table) and foreign keys (which reference those primary keys in another table).
+  
+* Data Consistency: Referential integrity prevents rows existing in a table if the referenced data (identified by the foreign key) doesn't exist in the linked table.
+
+*   Imagine an "Orders" table referencing a "Customers" table by customer ID. Referential integrity stops orders from being placed for non-existent customers.
+  
+* Avoiding Broken Links: By enforcing these rules, referential integrity helps avoid "orphaned" data - entries with meaningless foreign key references. This keeps your data analysis accurate and reliable.
+  
+In short, referential integrity acts like a data guardian, ensuring relationships between tables are valid and your analysis reflects a clean, consistent picture.
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/e7219491-4130-41dd-b407-33320d279aa6)
+
+example:
+
+customer ERD
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/d95f8e85-f57e-4754-961f-466c7733889a)
+
+
+
+
+
+
+
+
+
 
 
 
