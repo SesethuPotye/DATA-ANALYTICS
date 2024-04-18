@@ -758,6 +758,125 @@ As the queries in Figure 3.21 illustrate, it is possible to specify more than on
 
 
 
+# Chapter 4(DATA QUALITY)
+
+WHAT THIS CHAPTER COVERS 
+
+* Understanding the challenges of data quality. 
+* Identifying common reasons for cleansing and profiling datasets.
+* Executing data manipulation techniques. 
+* Applying data quality control concepts.
+
+
+# Data Quality Challenges
+# Duplicate Data
+
+Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system. Suppose you want to open a spreadsheet on your local computer. 
+The issue of duplicate data creation, primarily caused by human error.  While systems are designed to prevent duplicates, the best defense is to stop them before they happen.  The example highlights how a simple action like double-clicking can lead to unintended duplicates.  The solution? Visual warnings that alert users of the potential for duplicate entries before they confirm an action.
+
+Duclication data resolution process 
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/f96e1973-dd41-469a-a093-b8281c03d137)
+
+# HOW TO RESOVE DUPLICATION?
+
+* To resolve duplicate data issues, the company has a duplicate resolution process.
+*This process looks for customers with multiple billing addresses, validates the correct address, and updates the Sales database by removing the duplicate record.
+
+# Redundant Data
+Redundant data happens when the same data elements exist in multiple places within a system.
+* Data redundancy is a function of integrating multiple systems.
+
+# ILLUSTRATION OF TWO TRANSECTIONAL SYSTEEM FEEDING A SING DATA WAREHOUSE
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/776052f4-eed5-4b22-a2b1-03ca8340c5d2)
+
+* Wayas of resolving redundant data: One approach synchronizes changes to shared data elements between the Accounting and Sales systems.
+  
+  illustration of resolving redundancy with an integrated ETL process
+
+  
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/a45cf6f4-4afa-4cb9-b3b0-ba9dfe63796b)
+
+* Another root cause of data redundancy is an inappropriate database design
+  
+# Missing Values
+* Missing values occur when you expect an attribute to contain data but nothing is there.
+* Missing values are also known as null values.
+* A null value is the absence of a value.
+* A null is not a space, blank, or other character. There are situations when allowing nulls makes sense. 
+
+
+# Invalid Data
+
+* Invalid data are values outside the valid range for a given attribute.
+* An invalid value violates a business rule instead of having an incorrect data type
+* One has to understand the context of a system to determine whether or not a value is invalid
+* Text data is more complex. One thing that leads to invalid character data is an absence of referential integrity within a database
+* If two tables have a relationship but no foreign keys, the conditions for invalid character data exist
+  
+# Nonparametric Data
+
+* Nonparametric data is data collected from categorical variables,
+* sometimes they have a rank order associated with them
+
+# Data Outliers
+
+* A data outlier is a value that differs significantly from other observations in a dataset.
+
+# Specification Mismatch
+
+* A specification describes the target value for a component.
+* A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values.
+
+* When data is invalid, it has values that fall outside a given range. 
+* On the other hand, a specification mismatch occurs when data does not conform to its destination data type. 
+
+* If the destination column is numeric and you have text data, you'll end up with a specification mismatch. 
+* To resolve this mismatch, you must validate that the inbound data consistently maps to its target data type.
+
+
+# Data Type Validation
+
+Data type validation ensures that values in a dataset have a consistent data type. 
+
+* Programming languages, including SQL, Python, and R, all have data type validation functions
+* Use these functions to validate the data type for each column in a data file before attempting a database load.
+
+* It is the best to detect and remediate data type issues as early as possible to ensure data is ready for analysis
+
+# Data Manipulation Techniques
+Recoding Data
+
+* Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis.
+* Recoding groups data into multiple categories, creating a categorical variable.
+* A categorical variable is either nominal or ordinal.
+* Nominal variables are any variable with two or more categories where there is no natural order of the categories, like hair color or eye color.
+* Ordinal variables are categories with an inherent rank. For example, T-shirt size is an example of an ordinal variable, as sizes come in small, medium, large, and extra-large. Variable values fit into a fixed number of categories, similar to how lookup tables work
+
+# Derived Variables
+
+* derived variable is a new variable resulting from a calculation on an existing variable.
+* categorical variable is an example of a derived variable.
+* However, derived variables don't have to be categorical.
+
+# Data Merge
+
+* A data merge uses a common variable to combine multiple datasets with different structures into a single dataset. 
+* Merging data improves data quality by adding new variables to your existing data.
+* Additional variables make for a richer dataset, which positively impacts the quality of your analysis.
+* Since a data merge adds columns to a dataset, merging gives you additional data about a specific observation.
+* ETL processes commonly append data while transforming data for use in analytical environment.
+  
+illustration of merging disparate data
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/c9080566-97fd-4e9c-b5f3-98442fbba993)
+
+
+
+# Data Blending
+
+Data blending combines multiple sources of data into a single dataset at the reporting layer.
 
 
 
@@ -765,7 +884,19 @@ As the queries in Figure 3.21 illustrate, it is possible to specify more than on
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
