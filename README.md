@@ -876,7 +876,268 @@ illustration of merging disparate data
 
 # Data Blending
 
-Data blending combines multiple sources of data into a single dataset at the reporting layer.
+* Data blending combines multiple sources of data into a single dataset at the reporting layer.
+*  While data blending is conceptually similar to the extract, transform, and load process
+* Data blending differs from ETL in that it allows an analyst to combine datasets in an ad hoc manner without saving the blended dataset in a relational database.
+* Data blending can reduce the burden on IT as it gives analysts the ability to merge data.
+  
+# Illustratuion showing the traditional ETL workflow, the analyst needs to understand the data warehouse's structure to create a visualization
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/6a5a9587-67d1-40e3-abab-7b00f807c166)
+
+Diagram illustrating data blending
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/bba4cac7-a6b6-47c2-9e0a-42be4cb65127)
+
+# Concatenation
+Concatenation is the merging of separate variables into a single variable. 
+Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns. The need for 
+* concatenation frequently occurs when dealing with date and time data. 
+* Concatenation is also useful when generating address information.
+
+
+A diagram showing an example of 
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/1f687d8a-c098-445d-8501-87156f24b863)
+
+# Data Append
+
+* A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets.
+* When appending data, you save the result as a new dataset for ongoing analysis.
+  
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/4df1cdf2-463a-4e25-a2ef-7c9c1d89acfa)
+
+# Imputation
+* Imputation is a technique for dealing with missing values by replacing them with substitutes. When merging multiple data sources, you may end up with a dataset with many nulls in a given column. If you are collecting sensor data, it is possible to have missing values due to collection or transmission issues.
+There are many potential reasons why the data is missing. Perhaps the person is using a smart scale, and the scale lost its network connection. It could be that the person is using a manual scale and forgot to record the value. Another possibility is that the person didn't get on the scale on those four days. Regardless of the reason, the analyst has to decide how to handle the missing data.
+
+# few approaches an analyst can use for imputing values:
+
+* Remove Missing Data:  With this approach, you can remove rows with missing values without impacting the quality of your overall analysis.
+
+* Replace with Zero:  With this approach, you replace missing values with a zero. Whether or not it is appropriate to replace missing data with a zero is contextual. In this case, zero isn't an appropriate value, as a person's weight should be a positive number. In addition, replacing a zero in this case has an extraordinary impact on the overall average weight.
+  
+* Replace with Overall Average:  Instead of using a zero, you can compute the average Weight value for all rows that have data and then replace the missing Weight values with that calculated average.
+
+* Replace with Most Frequent (Mode):  Alternatively, you can take the most frequently occurring value, called the mode, and use that as the constant.
+  
+* Closest Value Average:  With this approach, you use the values from the rows before and after the missing values. For example, to replace the missing measurements for 2/13/2021 and 2/14/2021, take the values from 2/12/2021 and 2/15/2021 to compute the average.
+
+
+# Reduction
+When dealing with big data, it is frequently unfeasible and inefficient to manipulate the entire dataset during analysis. Reduction is the process of shrinking an extensive dataset without negatively impacting its analytical value. There are a variety of reduction techniques from which you can choose. Selecting a method depends on the type of data you have and what you are trying to analyze. Dimensionality reduction and numerosity reduction are two techniques for data reduction.
+
+# Dimensionality Reduction
+
+* One reduction technique is dimensionality reduction, which removes attributes from a dataset. Removing attributes reduces the dataset's overall size.
+  
+# Numerosity Reduction
+
+Another technique is numerosity reduction, which reduces the overall volume of data.
+One way to reduce the volume of quantitative data is by creating a histogram. You can create a histogram in Python, R, and many visualization-specific tools. A histogram is a diagram made up of rectangles, or bars, that show how frequently a specific value occurs. When creating a histogram, you can conFigure the width of a rectangle to represent a range of values.
+
+
+# Aggregation
+
+* Data aggregation is the summarization of raw data for analysis. When you are dealing with billions of individual records, a data summary can help you make sense of it all. 
+
+# Transposition
+
+* Transposing data is when you want to turn rows into columns or columns into rows to facilitate analysis.
+* When transposing, each value from a column becomes a new column.
+* To organize the data to be beneficial to leadership, you can combine transposition of the FiscalYear column with aggregation of Sales data to generate the table 
+
+
+If you're curious about how the min-max normalization, consider its mathematical definition:
+
+
+
+Let's walk through it using the Height data for AthleteID 1 in Figure 4.32. The first thing you need to do is find the minimum value of the Height column, which is 68. Then, find the maximum value of the Height column, which is 76. For AthleteID 1, the value you want to convert is 71. Once you have these values, you can plug them into the formula as follows:
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/c442ebc4-1eef-48ef-8a2c-d6d3738ddaba)
+
+
+Min-max normalization is one of the most straightforward approaches to normalizing data.
+
+
+
+# Managing Data Quality
+
+* There are many techniques you can use to improve data quality.
+* To be a successful analyst, you must recognize scenarios that create the conditions for data quality issues.
+* To help you develop a mental data quality checklist, let's explore various situations and see how different data quality controls apply.
+
+
+Circumstances to Check for Quality
+
+
+* There are numerous circumstances where it is appropriate to implement data quality control checks. Every stop along the data life-cycle journey can impact data quality
+* Errors during data acquisition, transformation, manipulation, and visualization all contribute to degrading data quality
+* You should recognize the types of quality issues that can occur and have an overarching strategy to ensure the quality of your data.
+
+Data Acquisition 
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/6a0a7cf6-c099-4a33-b20a-ce8ff8da5695)
+
+# Automated Validation
+
+* Data from various sources: Universities (first passage) and analytics environments (second passage) use data from multiple sources, including human-generated data.
+  
+* Human input and errors: Human interaction with data entry systems can introduce errors.
+  
+* Data validation: Automating data validation checks is crucial to prevent these errors from impacting analysis. This involves ensuring data types match and verifying the expected number of data points.
+  
+* Benefits: Data validation safeguards data quality, leading to more reliable results in student success analysis (first passage) or any other analytics application (second passage).
+
+
+
+# Data Quality Dimensions
+
+
+* It is essential to consider multiple attributes of data when considering its quality. Six dimensions to take into account when assessing data quality are accuracy, completeness, consistency, timeliness, uniqueness, and validity. Understanding these dimensions and how they are related will help you improve data quality.
+
+![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/80a0719a-04ce-4132-8173-2290b7c56bb1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
