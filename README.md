@@ -626,44 +626,7 @@ Your example of HR data for employee trends is a great illustration.
   * Retention: How long do you need to store the data (years, archives)?
 
 
-# STAR
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# STAr
 
 
 # Data Acquisition Concepts
@@ -997,6 +960,77 @@ Data Acquisition
 * It is essential to consider multiple attributes of data when considering its quality. Six dimensions to take into account when assessing data quality are accuracy, completeness, consistency, timeliness, uniqueness, and validity. Understanding these dimensions and how they are related will help you improve data quality.
 
 ![image](https://github.com/SesethuPotye/DATA-ANALYTICS/assets/162969678/80a0719a-04ce-4132-8173-2290b7c56bb1)
+
+# Chapter 6 : DATA ANALYTICS TOOLS
+
+* Spreadsheets: These are like electronic tables where you can organize data in rows and columns. They are user-friendly and great for basic data manipulation and calculations. Examples include Microsoft Excel and Google Sheets.
+
+* Programming Languages: For more complex tasks, data analysts and scientists often use programming languages like R and Python. These languages allow for more in-depth analysis and customization of data manipulation.
+
+* SQL (Structured Query Language): This is the language used to interact with databases. It allows users to retrieve, insert, update, and delete data stored in relational databases.
+
+* Statistical Packages: These are specialized software programs designed for advanced statistical analysis. Examples include IBM SPSS, Stata, and Minitab. They offer a wide range of statistical tests, data visualization tools, and functionalities for tasks like hypothesis testing and regression analysis.
+
+* Machine Learning Tools: These tools help automate the process of building models that can learn from data and make predictions. Examples include IBM SPSS Modeler and RapidMiner. They allow users to build and train various machine learning models visually, without necessarily needing to write code.
+
+* Analytics Suites: These are comprehensive platforms that provide a complete environment for data analysis. They offer functionalities for data ingestion, cleaning, exploration, visualization, modeling, and reporting. Examples include IBM Cognos, Microsoft Power BI, and Domo.
+
+* Cloud-Based Business Intelligence (BI) Tools: These tools leverage the cloud's scalability and flexibility for data analysis. Examples include AWS QuickSight and Tableau. They offer user-friendly interfaces for data exploration, visualization, and collaboration, often with pay-as-you-go pricing models.
+
+* Data Visualization Tools: These tools specialize in creating visually appealing and informative charts, graphs, and other visual representations of data. Tableau and Qlik are popular examples. They allow users to communicate data insights effectively to a wider audience.
+
+Choosing the right data analysis tool depends on the specific needs of the project, the expertise of the users, and the size and complexity of the data. This overview provides a starting point for understanding the various options available.
+
+
+
+# Chapter 7: Data Visualization with Reports and Dashboards
+
+This chapter outlines key concepts for creating effective reports and dashboards using data visualization techniques.
+
+# Understanding the Business Requirements
+
+* Who is the audience? Knowing your target audience is crucial for tailoring the report or dashboard to their needs.
+
+* Data access: Ensure you have access to the appropriate data sources for your project.
+
+* Report distribution:
+Pull approach: Users access the report from a central location (e.g., webpage) at their convenience.
+  * Push approach: Reports are automatically delivered to users 
+    upon completion.
+ * Blended approach: A combination of both, where users are notified of report updates but access it centrally.
+   
+# Understanding Report Design Elements
+
+# The 5Cs of visualizations: A framework for creating clear and efficient reports and dashboards:
+
+* Control: Focuses audience attention on key information.
+* Correctness: Ensures data accuracy and avoids errors.
+* Clarity: Employs appropriate visuals and easy-to-read elements.
+* Consistency: Maintains a consistent visual style throughout.
+* Concentration: Minimizes clutter and unnecessary details.
+  
+# Report Cover Page
+
+* Concise title: Briefly describes the report's content.
+* Significant insight: Ideally, conveys a key finding from the report.
+  
+  # Design Elements
+
+* Color schemes: Choose a color palette that complements your * message (monochromatic or complementary).
+* Page layout: Arrange components for user-friendliness.
+* Fonts: Select fonts that are easy to read (serif or sans serif).
+* Charts: Include clear and well-labeled charts.
+  
+  # Documentation Elements
+
+* Version numbers: Track changes made to the report over time.
+* Reference data sources: Indicate the data's source and update frequency.
+* Frequently Asked Questions (FAQs): Address common user questions.
+* Appendix: Include supplementary details not suitable for the main body.
+  
+* Understanding Dashboard Development Methods
+
+
 
 
 
